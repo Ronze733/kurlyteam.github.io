@@ -1,0 +1,429 @@
+.container {
+  width: 1700px;
+  height: 1500px;
+  position: relative;
+  text-align: center;
+}
+.header {
+  display: flex;
+  float: right;
+  color: gray;
+  font-size: 12px;
+}
+.sign {
+  color: purple;
+}
+.kurly {
+  font-style: italic;
+  position: relative;
+  right: 70px;
+}
+.kurly1 {
+  position: relative;
+  right: 30px;
+  top: 12px;
+}
+.menu {
+  display: flex;
+  position: relative;
+  width: 1550px;
+
+  justify-content: center;
+  color: blueviolet;
+  font-size: 15pt;
+}
+.menu > div:nth-child(3) {
+  color: gray;
+}
+.search {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  outline-color: blueviolet;
+  color: blueviolet;
+  position: relative;
+  left: 20px;
+}
+.search {
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 400px;
+  top: 10px;
+  margin: 0;
+}
+.img2 {
+  position: absolute;
+  right: 0;
+}
+.Categories {
+  position: fixed;
+  display: flex;
+  width: 1700px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  border-bottom: 2px solid rgb(218, 218, 218);
+  background-color: white;
+}
+.categori {
+  position: relative;
+  left: 170px;
+  top: 4px;
+}
+.driver {
+  background-color: white;
+  border-radius: 20px;
+  color: purple;
+}
+
+.width {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.join {
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  width: 600px;
+  height: 1000px;
+  color: black;
+  font-size: 14pt;
+
+  text-align: left;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  line-height: 20px;
+  margin: 0;
+  padding: 30;
+  font-size: 14px;
+}
+.join2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #333;
+}
+
+.id {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.id-1 {
+  font-weight: bolder;
+  width: 150px;
+}
+.id-2 {
+  width: 150px;
+  text-align: right;
+  color: blueviolet;
+}
+.b {
+  color: blueviolet;
+  background-color: white;
+  outline-color: blueviolet;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid blueviolet;
+}
+.b2 {
+  color: blueviolet;
+  background-color: white;
+  outline-color: blueviolet;
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid blueviolet;
+}
+.b3 {
+  color: gainsboro;
+  background-color: white;
+  outline-color: gainsboro;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+}
+.i2 {
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+}
+.pw {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.pw-1 {
+  width: 150px;
+  font-weight: bolder;
+}
+.pwch {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.pwch-1 {
+  font-weight: bolder;
+  width: 150px;
+}
+.name {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.name-1 {
+  font-weight: bolder;
+  width: 150px;
+}
+.name-2 {
+  width: 150px;
+
+  text-align: right;
+}
+.Email {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.email-1 {
+  font-weight: bolder;
+  width: 150px;
+}
+.email-2 {
+  width: 150px;
+
+  text-align: right;
+}
+.phone {
+  display: flex;
+  width: 90%;
+  padding: 10px 20px;
+}
+
+.phone-1 {
+  width: 150px;
+  font-weight: bolder;
+}
+.phone-2 {
+  width: 150px;
+  text-align: right;
+}
+
+.addres {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.addres-1 {
+  width: 150px;
+  font-weight: bolder;
+}
+.infor {
+  font-size: 8pt;
+  width: 300px;
+  padding: 10px 20px;
+  position: relative;
+  left: 150px;
+}
+
+.gender {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.gender-1 {
+  width: 150px;
+}
+.gender-2 {
+  text-align: right;
+}
+.gender-3 {
+  width: 70px;
+  text-align: right;
+}
+.gender-4 {
+  width: 100px;
+  text-align: right;
+}
+
+.birthday {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.birthday-1 {
+  width: 150px;
+}
+.birthday-2 {
+  width: 100px;
+  text-align: right;
+}
+
+.add {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+.add-1 {
+  width: 150px;
+}
+.agree {
+  font-size: 14px;
+  display: flex;
+}
+.agree-1 {
+  padding: 10px 20px;
+  width: 130px;
+}
+
+.agree .p {
+  font-size: 8px;
+}
+.p-2 {
+  font-size: 8px;
+  color: blueviolet;
+}
+.view {
+  width: 70px;
+  position: absolute;
+  right: 0;
+  color: blueviolet;
+}
+.joinb {
+  position: relative;
+  top: 20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: rgb(83, 7, 83);
+  border: 1px solid white;
+  font-size: 15px;
+}
+
+.sns {
+  position: relative;
+  left: 15px;
+  width: 100px;
+}
+.p-2 {
+  position: relative;
+  left: 25 px;
+}
+.f {
+  display: flex;
+}
+
+.point {
+  text-align: right;
+  font-size: 8pt;
+}
+
+.footer {
+  display: flex;
+}
+
+.center > div:nth-child(5) {
+  text-align: left;
+}
+
+.button1 {
+  padding: 20px 30px;
+}
+
+.footer {
+  display: flex;
+}
+
+.client {
+  position: absolute;
+  bottom: 10px;
+  left: 350px;
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 29px;
+  width: 850px;
+  height: 350px;
+}
+.bu1 {
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  background-color: white;
+  color: gray;
+  border-color: white;
+}
+
+.ask {
+  display: flex;
+  font-size: 14px;
+  color: gray;
+}
+.number-1 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.not-client {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  color: gray;
+}
+.number {
+  display: flex;
+}
+.num1 {
+  font-size: 28px;
+}
+.information {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+
+  text-align: left;
+  width: 850px;
+  height: 350px;
+}
+.i1 {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 50px;
+  color: inherit;
+}
+
+.color {
+  color: blueviolet;
+}
+.g {
+  color: gainsboro;
+}
+.information-2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+  margin-bottom: 40px;
+}
